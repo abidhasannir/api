@@ -2,6 +2,7 @@
 
 $phn = $_REQUEST["phone"];
 $url = "https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile=".$phn;
+https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile=01571500123
 
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_URL, $url);
